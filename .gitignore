@@ -25,3 +25,4 @@ docs/_build
 /.idea/.gitignore
 /data/
 /my_Gym_token.py
+/.idea/offworld-gym.iml
