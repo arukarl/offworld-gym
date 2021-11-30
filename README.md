@@ -26,7 +26,7 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
 
-This guide is for running **SAC_example.ipynb** with **Jupyter Notebook**. Other example files in examples folder might need different environment and/or dependencies!
+This guide is for running **[SAC_example.ipynb](SAC_example.ipynb)** with **Jupyter Notebook**. Other example files in examples folder might need different environment and/or dependencies!
 
 As the installation could get messy, here is a quick guide:
 
