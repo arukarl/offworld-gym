@@ -18,11 +18,12 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 - **Ubuntu 20.04.3 LTS**[^1] 
 - Intel i9-11980HK (8c)
-- 32 GB RAM
+- 32 GB RAM & 128 GB Swap[^2] 
 - NVidia RTX 3080 GPU 16GB (driver 495.44)
 
 [^1]: Windows 10 doesn't work, not sure about macOS
 
+[^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
 
 This guide is for running **SAC_example.ipynb** with **Jupyter Notebook**. Other example files in examples folder might need different environment and/or dependencies!
@@ -67,6 +68,6 @@ Open notebook **[SAC_example.ipynb](SAC_example.ipynb)** in Jupyter server
 
 After running **Environment** block, there will be debug info message with a link to 3D visualization server
 
-**Enjoy training**[^2] 
+**Enjoy training**[^3] 
 
-[^2]: It doesn't learn anythin at the moment :-1:
+[^3]: It doesn't learn anythin at the moment :-1:
