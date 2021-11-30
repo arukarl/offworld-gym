@@ -1,5 +1,4 @@
 *.pyc
-logs/
 .vscode
 *.egg-info/
 *.html
@@ -15,4 +14,14 @@ models/
 *.shelve
 *.dill
 docs/_build
-
+.gitignore
+/.idea/vcs.xml
+/.ipynb_checkpoints/SAC_example-checkpoint.ipynb
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/offworld.iml
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/.gitignore
+/data/
+/my_Gym_token.py
