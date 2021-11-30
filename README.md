@@ -80,6 +80,4 @@ View different logs either in jupyter notebook or in terminal:
 - x steps in real environment with random policy
 - x steps in simulation as Buf_1 experiment
 
-**Enjoy training**[^3] 
-
-[^3]: It doesn't learn anythin at the moment :-1:
+**Enjoy training**
