@@ -9,9 +9,11 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 
 - [ ] Dependencies are not optimized
-- [ ] Critic and actor neural nets are not optimal
+- [ ] Critic and actor neural nets might be not optimal
 - [x] Avg reward and steps metrics
-- [x] Tensorboard
+- [x] Replay buffer state can be stored and loaded from a file
+- [x] 50k sim steps stored in buffer file :+1:
+- [x] Tensorboard for logs
 - [x] Model intermediate state is saved :+1:
 - [x] 3D visualisation works :tada:
 ### Tested on hardware specs
@@ -66,7 +68,17 @@ To run Jupyter notebook
 
 Open notebook **[SAC_example.ipynb](SAC_example.ipynb)** in Jupyter server
 
-After running **Environment** block, there will be debug info message with a link to 3D visualization server
+After running **Environment** block, there will be debug info message with a link to 3D visualization server (when sim env)
+
+### Tensorboard
+
+View different logs either in jupyter notebook or in terminal:
+
+`tensorboard --logdir=logs`
+
+- 50k steps in simulation with random policy
+- x steps in real environment with random policy
+- x steps in simulation as Buf_1 experiment
 
 **Enjoy training**[^3] 
 
