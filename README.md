@@ -10,9 +10,10 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 - [ ] Dependencies are not optimized
 - [ ] Critic and actor neural nets might be not optimal
+- [ ] Store real env steps for sim model evaluation
 - [x] Avg reward and steps metrics
 - [x] Replay buffer state can be stored and loaded from a file
-- [x] 50k sim steps stored in buffer file :+1:
+- [x] 50k sim steps stored in buffer file (4.2k episodes) :+1:
 - [x] Tensorboard for logs
 - [x] Model intermediate state is saved :+1:
 - [x] 3D visualisation works :tada:
@@ -20,10 +21,10 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 - **Ubuntu 20.04.3 LTS**[^1] 
 - Intel i9-11980HK (8c)
-- 32 GB RAM & 128 GB Swap[^2] 
+- 32 GB RAM & 128 GB Swap[^2] (total >50 GB needed)
 - NVidia RTX 3080 GPU 16GB (driver 495.44)
 
-[^1]: Windows 10 doesn't work, not sure about macOS
+[^1]: Windows 10 works only for real environment. Sim env doesn't work! No info about macOS.
 
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
