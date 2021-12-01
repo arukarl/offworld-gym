@@ -16,7 +16,6 @@ models/
 docs/_build
 .gitignore
 /.idea/vcs.xml
-/.ipynb_checkpoints/SAC_example-checkpoint.ipynb
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/offworld.iml
