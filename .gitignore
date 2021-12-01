@@ -26,3 +26,7 @@ docs/_build
 /data/
 /my_Gym_token.py
 /.idea/offworld-gym.iml
+/logs/Buf_2/
+/logs/Buf_1/
+/SAC_Buf_1.ipynb
+/.ipynb_checkpoints/SAC_Buf_1-checkpoint.ipynb
