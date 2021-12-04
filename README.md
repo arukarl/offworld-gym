@@ -1,6 +1,6 @@
 # [Project OffWorld Gym](README-offworld.md)
 
-<img height="30" src="https://www.gstatic.com/devrel-devsite/prod/v8fd805b581ccd4ea25bb3c9d6fd75d38ac1dfcb55016a4d660f139190a81898b/tensorflow/images/lockup.svg"/>
+[<img height="30" src="https://www.gstatic.com/devrel-devsite/prod/v8fd805b581ccd4ea25bb3c9d6fd75d38ac1dfcb55016a4d660f139190a81898b/tensorflow/images/lockup.svg"/>](https://www.tensorflow.org/agents)
 
 This project aims to benchmark [Soft Actor Critic](https://arxiv.org/abs/1812.05905) agent based reinforcement learning algorithm in [OffWorld-gym ](https://gym.offworld.ai/) 
 real world environment using [TensorFlow Agents API](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/SacAgent) 
