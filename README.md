@@ -14,7 +14,7 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - [x] Model intermediate state is saved :+1:
 - [x] Tensorboard reward and steps metrics
 - [x] Tensorboard model metrics
-- [x] 50k random and traind model accuracy comparison
+- [x] 50k random steps and trained model accuracy comparison
 - [x] 3D visualisation works
 
 ### Results
