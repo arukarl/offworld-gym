@@ -9,15 +9,16 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 
 - [ ] Dependencies are not optimized
-- [x] Sim accuracy 70 - 80 % achieved :tada:
+- [X] Sim accuracy 70 - 80 % achieved :tada:
 - [X] Store and load replay buffer as a file
-- [x] Model intermediate state is saved :+1:
-- [x] Tensorboard reward and steps metrics
-- [x] Tensorboard model metrics
-- [x] 50k random and traind model accuracy comparison
-- [x] 3D visualisation works
+- [X] Model intermediate state is saved :+1:
+- [X] Tensorboard reward and steps metrics
+- [X] Tensorboard model metrics
+- [X] 50k random steps and trained model accuracy comparison
+- [X] 3D visualisation works
+- [X] Using continuous environment
 
-### Results
+### Results in simulation
 
 Random vs Trained
 
