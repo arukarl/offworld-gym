@@ -18,9 +18,9 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - [X] 3D visualisation works
 - [X] Using continuous environment
 
-### Results in simulation
+### Results by [SAC example notebook](SAC_example.ipynb)
 
-Random vs Trained
+Random vs Trained in Simulation environment
 
 <img src="images/rewards.png"/>
 
