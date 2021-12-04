@@ -30,3 +30,4 @@ docs/_build
 /.ipynb_checkpoints/SAC_Buf_1-checkpoint.ipynb
 /models/Macro_net/train/checkpoints
 /models/Micro_net/train/checkpoints
+*.txt
