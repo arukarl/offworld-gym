@@ -17,7 +17,7 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - [x] 50k random steps and trained model accuracy comparison
 - [x] 3D visualisation works
 
-### Results
+### Results in simulation
 
 Random vs Trained
 
