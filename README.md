@@ -16,6 +16,13 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - [x] Tensorboard model metrics
 - [x] 50k random and traind model accuracy comparison
 - [x] 3D visualisation works
+
+### Results
+
+<img src="images/rewards.png"/>
+
+<img src="images/steps.png"/>
+
 ### Tested on hardware specs
 
 - **Ubuntu 20.04.3 LTS**[^1] 
