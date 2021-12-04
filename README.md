@@ -19,6 +19,8 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 ### Results
 
+Random vs Trained
+
 <img src="images/rewards.png"/>
 
 <img src="images/steps.png"/>
