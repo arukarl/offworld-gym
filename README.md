@@ -9,22 +9,21 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 
 - [ ] Dependencies are not optimized
-- [ ] Critic and actor neural nets might be not optimal
-- [ ] Store real env steps for sim model evaluation
-- [x] Avg reward and steps metrics
-- [x] Replay buffer state can be stored and loaded from a file
-- [x] 50k sim steps stored in buffer file (4.2k episodes) :+1:
-- [x] Tensorboard for logs
+- [x] Sim accuracy 70 - 80 % achieved :tada:
+- [X] Store and load replay buffer as a file
 - [x] Model intermediate state is saved :+1:
-- [x] 3D visualisation works :tada:
+- [x] Tensorboard reward and steps metrics
+- [x] Tensorboard model metrics
+- [x] 50k random and traind model accuracy comparison
+- [x] 3D visualisation works
 ### Tested on hardware specs
 
 - **Ubuntu 20.04.3 LTS**[^1] 
 - Intel i9-11980HK (8c)
-- 32 GB RAM & 128 GB Swap[^2] (total >50 GB needed)
+- 32 GB RAM & 128 GB Swap[^2] (total >70 GB needed)
 - NVidia RTX 3080 GPU 16GB (driver 495.44)
 
-[^1]: Windows 10 works only for real environment. Sim env doesn't work! No info about macOS.
+[^1]: Windows 10 works only for real environment. Sim env doesn't work (xHost problem)! No info about macOS.
 
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
@@ -73,12 +72,14 @@ After running **Environment** block, there will be debug info message with a lin
 
 ### Tensorboard
 
-View different logs either in jupyter notebook or in terminal:
+View different logs in terminal (open link from terminal):
+
+For training results:
 
 `tensorboard --logdir=logs`
 
-- 50k steps in simulation with random policy
-- x steps in real environment with random policy
-- x steps in simulation as Buf_1 experiment
+For model losses:
+
+`tensorboard --logdir=models`
 
 **Enjoy training**
