@@ -20,11 +20,21 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 
 ### Results by [SAC example notebook](SAC_example.ipynb)
 
-Random vs Trained in Simulation environment
+#### Simulation environment (random vs training)
 
 <img src="images/rewards.png"/>
 
 <img src="images/steps.png"/>
+
+### Real environment
+
+Because training in real environment is time limited, only few training iterations on model were done while being in live action. All steps done within every experiment in real environment are stored and used in replay buffer. (For the following result, replay buffer was already populated with 10k steps from previous experiment sessions.) With last hundred episodes model drifted off a bit, likely beacause of converging in slightly wrong direction. This should be fixed with offline training on recorded live environment steps. Another training session will be done to get episodes near 1k.
+
+<img height="300" src="images/first_results.png"/>
+
+**Simulation env** is quite different compared to real env. This is well seen in Agent Q-values prediction accuracy drop, at about 885k steps when model went from SIM to REAL environment:
+
+<img src="images/actor_target_Q_values.png"/>
 
 ### Tested on hardware specs
 
