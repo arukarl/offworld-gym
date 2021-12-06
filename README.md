@@ -32,6 +32,10 @@ Because training in real environment is time limited, only few training iteratio
 
 <img height="300" src="images/first_results.png"/>
 
+**Simulation env** is quite different compared to real env. This is well seen in Agent Q-values prediction accuracy drop, at about 885k steps when model went from SIM to REAL environment:
+
+<img src="images/actor_target_Q_values.png"/>
+
 ### Tested on hardware specs
 
 - **Ubuntu 20.04.3 LTS**[^1] 
