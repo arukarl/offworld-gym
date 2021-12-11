@@ -18,7 +18,7 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - [X] 3D visualisation works
 - [X] Using continuous environment
 
-### Results by [SAC example notebook](SAC_example.ipynb)
+### Results by [SAC example notebook](SAC_Agent.ipynb)
 
 #### Simulation environment (random vs training)
 
@@ -48,7 +48,7 @@ Because training in real environment is time limited, only few training iteratio
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
 
-This guide is for running **[SAC_example.ipynb](SAC_example.ipynb)** with **Jupyter Notebook**. Other example files in examples folder might need different environment and/or dependencies!
+This guide is for running **[SAC_Agent.ipynb](SAC_Agent.ipynb)** with **Jupyter Notebook**. Other example files in examples folder might need different environment and/or dependencies!
 
 As the installation could get messy, here is a quick guide:
 
@@ -86,7 +86,7 @@ To run Jupyter notebook
 
 `jupyter notebook`
 
-Open notebook **[SAC_example.ipynb](SAC_example.ipynb)** in Jupyter server
+Open notebook **[SAC_Agent.ipynb](SAC_Agent.ipynb)** in Jupyter server
 
 After running **Environment** block, there will be debug info message with a link to 3D visualization server (when sim env)
 
