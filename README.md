@@ -7,14 +7,13 @@ real world environment using [TensorFlow Agents API](https://www.tensorflow.org/
 
 This work is inspired by [Soft Actor-Critic Algorithms and Applications](https://sites.google.com/view/sac-and-applications/)
 
-
-- [X] Sim accuracy 84 % achieved :tada:
+- [X] Using continuous environment
+- [X] Sim accuracy 84% 
+- [X] Real accuracy 88% :tada:
 - [X] Store and load replay buffer as a file for real and sim environments
 - [X] Model intermediate state is saved :+1:
 - [X] Tensorboard reward and steps metrics
 - [X] Tensorboard model metrics
-- [X] 50k random steps and trained model accuracy comparison
-- [X] Using continuous environment
 
 ### Solution is in [SAC Agent notebook](SAC_Agent.ipynb)
 
@@ -25,7 +24,7 @@ This work is inspired by [Soft Actor-Critic Algorithms and Applications](https:/
 - 32 GB RAM & 128 GB Swap[^2] (total >70 GB needed)
 - NVidia RTX 3080 GPU 16GB (driver 495.44)
 
-[^1]: Windows 10 works only for real environment, but conda yaml doesn't work out of the box. Sim env doesn't work (xHost problem)! No info about macOS.
+[^1]: Windows 10 works only for real environment, conda env might need installing some dependecies manually. Sim env doesn't work on Windows (xHost problem)! No info about macOS.
 
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
