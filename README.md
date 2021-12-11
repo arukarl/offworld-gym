@@ -7,6 +7,8 @@ real world environment using [TensorFlow Agents API](https://www.tensorflow.org/
 
 This work is inspired by [Soft Actor-Critic Algorithms and Applications](https://sites.google.com/view/sac-and-applications/)
 
+### Features
+
 - [X] Using continuous environment
 - [X] Sim accuracy 84% 
 - [X] Real accuracy 88% :tada:
