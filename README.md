@@ -43,7 +43,7 @@ Because training in real environment is time limited, only few training iteratio
 - 32 GB RAM & 128 GB Swap[^2] (total >70 GB needed)
 - NVidia RTX 3080 GPU 16GB (driver 495.44)
 
-[^1]: Windows 10 works only for real environment. Sim env doesn't work (xHost problem)! No info about macOS.
+[^1]: Windows 10 works only for real environment, but conda yaml doesn't work out of the box. Sim env doesn't work (xHost problem)! No info about macOS.
 
 [^2]: [Creating a SWAP partition in Ubuntu, Linux Mint and derivatives](https://itectec.com/ubuntu/ubuntu-fallocate-fallocate-failed-text-file-busy-in-ubuntu-17-04/)
 ## Installation for Linux
