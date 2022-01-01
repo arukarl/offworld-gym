@@ -41,6 +41,7 @@ dependencies:
     - decorator==5.1.0
     - dm-reverb==0.4.0
     - dm-tree==0.1.6
+    - docker==5.0.3
     - entrypoints==0.3
     - flatbuffers==1.12
     - gast==0.4.0
